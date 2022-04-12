@@ -211,6 +211,13 @@ grid-area: imagenOferta;
         margin-left: 20px;
         transform: translate(10px, 100px);
     }
+
+    #imagenOferta{
+        width: 100px;
+        height: 180px;
+            }
+
+
     }
     
 
