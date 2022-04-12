@@ -124,6 +124,10 @@ grid-area: imagenOferta;
     bottom: 15%;
     right: 10px
 }
+.enlaceStyle:hover{
+    font-size: 35px;
+}
+
 
 .enlaceStyle{
     text-decoration: none;
@@ -193,12 +197,9 @@ grid-area: imagenOferta;
         height: 180px;
         margin-left: 20px;
     }
-    #imagenOferta{
-        width: 100px;
-        height: 180px;
-            }
-    
     }
+    
+
     
 @media (min-width: 1024px) {
     .seccionProductos{
