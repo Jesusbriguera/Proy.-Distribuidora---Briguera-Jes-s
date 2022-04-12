@@ -138,6 +138,9 @@ grid-area: imagenOferta;
     bottom: 15%;
     right: 10px
 }
+.enlaceStyle:hover{
+    font-size: 35px;
+}
 
 .enlaceStyle{
     text-decoration: none;
@@ -210,7 +213,13 @@ grid-area: imagenOferta;
     #imagenOferta{
         width: 100px;
         height: 180px;
-            }
+        transition: 5s;
+    }
+    #imagenOferta:hover{
+    width: 140px;
+    height: 250px;
+    }
+            
     
     }
     
