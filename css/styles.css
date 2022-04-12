@@ -211,7 +211,15 @@ grid-area: imagenOferta;
         width: 100px;
         height: 180px;
             }
-    
+        #imagenOferta{
+        width: 100px;
+        height: 180px;
+        transition: 5s;
+        }
+        #imagenOferta:hover{
+        width: 140px;
+        height: 250px;
+        }
     }
     
 @media (min-width: 1024px) {
