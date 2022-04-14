@@ -30,9 +30,23 @@ grid-area: headerNav;
 text-align: center;
 margin-top: 30px;
 padding-top: 15px;
-}
+background-image: linear-gradient(to top, blue, white)
+    }
+    #headerNav{
+        animation-duration: 5s;
+        animation-name: aparecer;
+        animation-iteration-count: infinite;
+        }
+        @keyframes aparecer {
+        0% {
+        opacity: 0;
+        }
+        100% {
+        opacity: 1;
+        }
+    }
 
-#menu-nav {
+#menu-nav{
     grid-area: menu-nav;
     }
 #resumen {
