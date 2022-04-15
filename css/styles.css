@@ -250,6 +250,7 @@ text-align: center;
         margin-left: 20px;
         transform: translate(10px, 100px);
     }
+<<<<<<< HEAD
     #imagenOferta{
         width: 100px;
         height: 180px;
@@ -259,6 +260,15 @@ text-align: center;
     width: 140px;
     height: 250px;
     }
+=======
+
+    #imagenOferta{
+        width: 100px;
+        height: 180px;
+            }
+
+
+>>>>>>> ba493a296bedbccd3d3225e23a6f08231f56756e
     }
     
 
