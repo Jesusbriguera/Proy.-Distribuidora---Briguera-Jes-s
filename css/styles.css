@@ -7,7 +7,7 @@
     "menu-nav menu-nav menu-nav"
     "imagenIndex resumen imagenOferta"
     "piePagina piePagina piePagina";
-    grid-template-rows: 100px 40px 1fr 75px;
+    grid-template-rows: 100px 100px 2fr 75px;
     grid-template-columns: 20% auto 15%;
     height: 100vh;
     margin: 0;
@@ -57,7 +57,9 @@ padding: 30px;
 }
 .tituloSeccion{
 background-color: rgb(183, 183, 201);
-text-align: center;    
+text-align: center; 
+margin: 20px;
+padding: 10px;   
 }
 .tituloStyle{
     padding: 10px;
@@ -110,7 +112,7 @@ grid-area: imagenOferta;
     margin: 5% 25%;
     background-color: blanchedalmond;
 }
-#menu-nav{ 
+/* #menu-nav{ 
     display: flex;
     justify-content: space-around;
     flex-flow: row nowrap;
@@ -118,7 +120,39 @@ grid-area: imagenOferta;
     font-size: 32px;
     font-family:Arial, Helvetica, sans-serif;
     background-color: black;
+} */
+
+/* Menu Cambios con Boostrap */
+.menuStyle{
+    margin: 25px;
+    width: 95%;
+    padding-left: 27%;
+}   
+.menuStyle:hover{
+    font-size: 20px;
 }
+.menuPages{
+    padding-right: 22%;
+    margin: 25px;
+    width: 95%;
+}
+#productoStyle{
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+.imgLogo{
+    padding-left: 50%;
+}
+.cards{
+    display: flex;
+    margin: 10px;
+}
+.botonCarrito{
+    padding-bottom: 0 auto;
+}
+
+/* cambios Boostrap  */´
+
 
 #headerNav{
     background-color: rgb(183, 183, 201);
@@ -161,6 +195,7 @@ grid-area: imagenOferta;
 .seccionProductos{
     display: grid; 
     grid-template-columns: repeat(1, 1fr);
+    margin-left: 18%;
 }
 .enlaceStyle{
     font-size: 15px;
@@ -199,6 +234,9 @@ grid-area: imagenOferta;
     margin-left: 38%;
     width: 100px;
     }     
+.menuPages{
+text-align: center;
+}
 }
 
 @media (min-width: 768px) {

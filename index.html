@@ -15,15 +15,30 @@
         <h1>Distribuidora NNB</h1>
     </header>
 
-        <ul id="menu-nav">
-            <li><a class="enlaceStyle" href="index.html">Inicio</a></li>
-            <li><a class="enlaceStyle" href="Pages/productos.html">Productos</a></li>
-            <li><a class="enlaceStyle" href="pages/servicios.html">Servicios</a></li>
-            <li><a class="enlaceStyle" href="pages/contacto.html">Contacto</a></li>
-            <li><a class="enlaceStyle" href="pages/ubicacion.html">Ubicación</a></li>
-        </ul>    
+    <nav id="menu-nav" class="navbar navbar-expand-lg navbar navbar-dark bg-dark menuStyle">
+        <div class="container-fluid">
+        <a id="productoStyle" class="navbar-brand" href="Pages/productos.html">Productos</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pages/servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pages/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pages/ubicacion.html">Ubicación</a>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
     
     <section id="resumen">                
+        <div>
         <h2  class="tituloStyle">¿Quienes Somos?</h2>
             <p class="parrafoStyle1">
                 Nacimos en 1988, con el objetivo de abastecer de  Alimentos de consumo masivo (Golosinas, Chocolates, Helados, Galletas y Alimentos) a comercios minoristas de la ciudad de Córdoba.
@@ -36,7 +51,25 @@
             <p class="parrafoStyle2">
                 Ser una empresa líder de distribución de alimentos y golosinas en Córdoba y reconocida en el mercado Nacional, destacándonos por nuestras prácticas sustentables y por nuestra capacidad de ingresar en nuevos negocios. 
             </p>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/img/Chocolates.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/golosinas.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/gomitas.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/kiosco.jpg" class="d-block w-100" alt="...">
+                </div>    
+                </div>
+            </div>
+        </div>
     </section>
+
     
     <section>
         <img id= "imagenIndex" src="img/golosinas-marcas.jpg" alt="Logos Marcas">
